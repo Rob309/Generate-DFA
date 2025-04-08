@@ -1,0 +1,35 @@
+States (Q): q0 q1 q10 q11 q12 q13 q14 q15 q16 q17 q18 q19 q2 q20 q3 q4 q5 q6 q7 q8 q9 
+ Alphabet (E): a b 
+ Start State (q0): q0
+ Accept States (F): q10 q12 q13 q14 q15 q17 q18 q19 q20 q7 q8 
+ Transitions (6):
+  (q0, a) -> q1
+  (q0, b) -> q2
+  (q1, a) -> q3
+  (q1, b) -> q4
+  (q10, b) -> q14
+  (q11, a) -> q15
+  (q11, b) -> q16
+  (q12, b) -> q12
+  (q13, b) -> q17
+  (q14, b) -> q18
+  (q15, b) -> q19
+  (q16, a) -> q15
+  (q16, b) -> q16
+  (q17, b) -> q17
+  (q18, b) -> q18
+  (q19, b) -> q20
+  (q2, a) -> q5
+  (q2, b) -> q6
+  (q20, b) -> q20
+  (q3, b) -> q7
+  (q4, a) -> q8
+  (q4, b) -> q9
+  (q5, a) -> q10
+  (q5, b) -> q11
+  (q6, a) -> q5
+  (q6, b) -> q6
+  (q7, b) -> q12
+  (q8, b) -> q13
+  (q9, a) -> q8
+  (q9, b) -> q9

@@ -1,0 +1,1 @@
+(bb*ab*ab*)|(b*abb*ab*)|(b*ab*abb*)
